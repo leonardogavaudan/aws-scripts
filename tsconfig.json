@@ -1,0 +1,22 @@
+// copied from https://stackoverflow.com/a/71426203/15477366
+// need to understand better this config
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"target": "ESNext",
+		"moduleResolution": "Node",
+		"outDir": "dist",
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"isolatedModules": false,
+		"strict": true,
+		"noImplicitAny": true,
+		"useUnknownInCatchVariables": false,
+		"inlineSourceMap": true
+	},
+	"ts-node": {
+		"esm": true
+	},
+	"lib": ["esnext"]
+}
