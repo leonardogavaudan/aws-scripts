@@ -5,11 +5,6 @@ module.exports = {
 		// allows use of 'fetch' if true
 		browser: false,
 	},
-	extends: [
-		'eslint:recommended',
-		'plugin:@typescript-eslint/recommended',
-		'prettier',
-	],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 'latest',
@@ -18,6 +13,11 @@ module.exports = {
 		},
 		sourceType: 'module',
 	},
+	extends: [
+		'eslint:recommended',
+		'plugin:@typescript-eslint/recommended',
+		'prettier',
+	],
 	plugins: ['@typescript-eslint/eslint-plugin'],
 	rules: {
 		'linebreak-style': ['error', 'unix'],

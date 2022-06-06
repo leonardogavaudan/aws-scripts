@@ -1,7 +1,7 @@
 {
 	"name": "aws-scripts",
 	"private": true,
-	"license": "UNLICENSED",
+	"license": "GPL 3",
 	"type": "module",
 	"scripts": {
 		"ts-node": "ts-node"
